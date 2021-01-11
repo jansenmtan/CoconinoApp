@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/padding_frame"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_first_name" />
+
+    <EditText
+        android:id="@+id/edit_text_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/label_first_name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_last_name" />
+
+    <EditText
+        android:id="@+id/edit_text_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/label_last_name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_phone" />
+
+    <EditText
+        android:id="@+id/edit_text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="phone"
+        android:ems="10"
+        android:hint="@string/label_phone"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_street_address_1" />
+
+    <EditText
+        android:id="@+id/edit_text_street_address_1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="postalAddress"
+        android:ems="10"
+        android:hint="@string/label_street_address_1"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_street_address_2" />
+
+    <EditText
+        android:id="@+id/edit_text_street_address_2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="postalAddress"
+        android:ems="10"
+        android:hint="@string/label_street_address_2"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_country" />
+
+    <EditText
+        android:id="@+id/edit_text_country"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="text"
+        android:ems="10"
+        android:hint="@string/label_country"
+        android:inputType="none|textCapCharacters" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_city" />
+
+    <EditText
+        android:id="@+id/edit_text_city"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="text"
+        android:ems="10"
+        android:hint="@string/label_city"
+        android:inputType="none|textCapWords" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_state" />
+
+    <EditText
+        android:id="@+id/edit_text_state"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="text"
+        android:ems="10"
+        android:hint="@string/label_state"
+        android:inputType="none|textCapCharacters" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_postal_code" />
+
+    <EditText
+        android:id="@+id/edit_text_postal_code"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="postalCode"
+        android:ems="10"
+        android:hint="@string/label_postal_code"
+        android:inputType="numberSigned" />
+
+    <!--    <Space-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="1" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/label_save_shipping_information_action" />-->
+
+</LinearLayout>

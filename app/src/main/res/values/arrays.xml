@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_payment_methods">
+        <item>"credit card"</item>
+        <item>"check"</item>
+        <item>"debit"</item>
+        <item>"paypal"</item>
+    </string-array>
+</resources>

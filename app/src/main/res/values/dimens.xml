@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="padding_frame">16dp</dimen>
+    <dimen name="gap_vertical_linearlayout">8dp</dimen>
+    <dimen name="height_nav_header">150dp</dimen>
+    <dimen name="padding_nav_view_menu_item_horizontal">22dp</dimen>
+    <dimen name="padding_nav_view_menu_item_icon">14dp</dimen>
+</resources>

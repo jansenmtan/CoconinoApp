@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/browseItemsFragment"
+            android:title="@string/label_browse_items_action" />
+        <item
+            android:id="@+id/viewCartFragment"
+            android:title="@string/label_view_cart_action" />
+        <item
+            android:id="@+id/loginFragment"
+            android:title="@string/label_login_action" />
+        <item
+            android:id="@+id/createAccountFragment"
+            android:title="@string/label_create_account_action" />
+    </group>
+</menu>

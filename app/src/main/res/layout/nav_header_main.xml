@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_nav_view_menu_item_horizontal"
+    android:paddingTop="24dp"
+    android:paddingRight="@dimen/padding_nav_view_menu_item_horizontal"
+    android:paddingBottom="0dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name_descriptive"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</LinearLayout>

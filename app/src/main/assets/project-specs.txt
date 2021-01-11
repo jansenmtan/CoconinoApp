@@ -1,0 +1,22 @@
+Android project implementation requirement
+
+Posted Dec 4, 2020 7:56 PM
+
+
+Dear All,
+
+The requirement for android app development is simplified. please refer to book library 4 and implement the following functions:
+
+1. Display your supermarket with different grocery items (showing name and picture for each item) on your main page
+
+2. Display the specific item details (such as name, picture, category, and price etc) when user clicks on it from the main page
+
+3. when the specific item is displayed, user is able to add it to the cart
+
+4. when cart is clicked, user is able to check out. A dialog will pop up and take user's information such as name, address, phone number, and credit cart.
+
+5. Database is not required in the project. Therefore, it is sufficient to provide two options on the dialog. If OK is clicked, a successful transaction receipt will be shown (You can decide what is on the receipt, and there is no need for credit card verification). If Cancel is clicked, you can go back to the main page.
+
+You don't have to follow the specific instructions if you have already started the project, but you need to implement similar function. Let me know if you have any questions.
+
+Lucy

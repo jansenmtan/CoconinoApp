@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CoconinoApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_login_action">Login</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_create_account_action">Create account</string>
+    <string name="label_email_address">Email address</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="label_items_in_cart">Items in cart</string>
+    <string name="label_add_to_cart_action">Add to cart</string>
+    <string name="hint_search_for_item">Insert regular expression here…</string>
+    <string name="label_browse_items_action">Browse items</string>
+    <string name="label_view_cart_action">View cart</string>
+    <string name="app_name_descriptive">Coconino Online Shopping App</string>
+    <string name="error_passwords_do_not_match">Passwords must match</string>
+    <string name="content_description_product_image">Product image</string>
+    <string name="label_in_stock_prefix">"In stock: "</string>
+    <string name="label_item_description">Item description</string>
+    <string name="label_view_item_action">View item</string>
+    <string name="label_checkout_cart_action">Checkout cart</string>
+    <string name="label_quantity_prefix">"Qty"</string>
+    <string name="label_remove_item_from_cart_action">Remove</string>
+    <string name="label_first_name">First name</string>
+    <string name="label_last_name">Last name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_street_address_1">Street address 1</string>
+    <string name="label_street_address_2">Street address 2</string>
+    <string name="label_country">Country</string>
+    <string name="label_city">City</string>
+    <string name="label_state">State</string>
+    <string name="label_postal_code">Postal Code</string>
+    <string name="label_save_shipping_information_action">Save shipping information</string>
+    <string name="label_shipping_information_title">Shipping information</string>
+    <string name="label_payment_info_form_title">Payment information</string>
+    <string name="label_payment_method">Payment method</string>
+    <string name="label_receipt_summary_title">Receipt summary</string>
+    <string name="label_items">Items</string>
+    <string name="label_shipping">Shipping</string>
+    <string name="label_total">Total</string>
+    <string name="label_checkout_confirm">Confirm and pay</string>
+</resources>

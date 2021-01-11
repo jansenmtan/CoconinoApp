@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/browseItemsFragment">
+
+    <fragment
+        android:id="@+id/browseItemsFragment"
+        android:name="com.coconino.coconinoapp.ui.BrowseItems.BrowseItemsFragment"
+        android:label="@string/label_browse_items_action"
+        tools:layout="@layout/browse_items" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.coconino.coconinoapp.ui.Login.LoginFragment"
+        android:label="@string/label_login_action"
+        tools:layout="@layout/login" />
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.coconino.coconinoapp.ui.CreateAccount.CreateAccountFragment"
+        android:label="@string/label_create_account_action"
+        tools:layout="@layout/create_account" />
+    <fragment
+        android:id="@+id/viewCartFragment"
+        android:name="com.coconino.coconinoapp.ui.ViewCart.ViewCartFragment"
+        android:label="@string/label_view_cart_action"
+        tools:layout="@layout/view_cart" >
+        <action
+            android:id="@+id/action_viewCartFragment_to_checkoutCartFragment"
+            app:destination="@id/checkoutCartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewItemFragment"
+        android:name="com.coconino.coconinoapp.ui.ViewItem.ViewItemFragment"
+        android:label="@string/label_view_item_action"
+        tools:layout="@layout/view_item" />
+    <fragment
+        android:id="@+id/checkoutCartFragment"
+        android:name="com.coconino.coconinoapp.ui.CheckoutCart.CheckoutCartFragment"
+        tools:layout="@layout/checkout_cart"
+        android:label="@string/label_checkout_cart_action" />
+</navigation>
